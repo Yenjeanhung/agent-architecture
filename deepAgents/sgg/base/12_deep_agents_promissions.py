@@ -22,7 +22,7 @@ print(f"Agent 的工作目录已设置为: {workspace_dir}")
 backend = FilesystemBackend(root_dir=workspace_dir, virtual_mode=True)
 
 llm = init_chat_model(
-    model=os.getenv("LLM_QWEN_MAX"),
+    model=os.getenv("LLM_GLM-5.3-FLASH"),
     model_provider="openai"
 )
 

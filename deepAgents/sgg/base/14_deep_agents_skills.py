@@ -19,7 +19,7 @@ fs_backend = FilesystemBackend(root_dir=current_dir,virtual_mode=True)
 
 # ======================== 2. 初始化 Agent ========================
 llm = init_chat_model(
-    model="qwen-max",
+    model="glm-5.3-flash",
     model_provider="openai"
 )
 
