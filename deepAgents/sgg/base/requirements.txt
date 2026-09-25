@@ -1,0 +1,14 @@
+# Dependencies for all scripts under base/
+# Core: DeepAgents framework
+deepagents
+
+# LangChain / LangGraph ecosystem
+langchain
+langchain-core
+langchain-openai
+langgraph
+
+# Tools & utilities
+tavily-python        # from tavily import TavilyClient
+python-dotenv        # from dotenv import load_dotenv, find_dotenv
+playwright           # skills/md-to-pdf/scripts/md_to_pdf.py (HTML -> PDF)
